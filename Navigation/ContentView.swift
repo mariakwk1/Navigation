@@ -10,18 +10,33 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            Text("This is the room view 🌴")
-            NavigationLink(destination: Text ("You've arrived to the second view 🎉")) { //destination shows what will be on the new view
-                Text("Click me!") //label the content shows to the user the link
-            }
-        }///end of navigation stack
-        
-        
+            /// vstack to organize links top to bottom
+            VStack {
+                
+                Text("This is the room view 🌴")
+                NavigationLink(destination: SecondView()) { //destination shows what will be on the new view
+                    Text("Click here for first view!") //label the content shows to the user the link
+                    
+                    //add another navigationLink within your Vstack with text of your choice for the destination label
+                
+                    NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label Content@*/Text("Navigate")/*@END_MENU_TOKEN@*/
+                    }
+
+                } //end of vstack
+                .navigationTitle("🏠")
+                .navigationBarTitleDisplayMode(.inline)
+                .navigationBarBackButtonHidden(true)
+            }///end of navigation stack
+            
+        }
+            
         }
         
     }
+    
+    
+    #Preview {
+        ContentView()
+    }
 
-
-#Preview {
-    ContentView()
-}
