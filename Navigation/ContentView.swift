@@ -14,19 +14,26 @@ struct ContentView: View {
             VStack {
                 
                 Text("This is the room view 🌴")
+              
                 NavigationLink(destination: SecondView()) { //destination shows what will be on the new view
-                    Text("Click here for first view!") //label the content shows to the user the link
+                    Text("Click for second view!") //label the content shows to the user the link
                     
                     //add another navigationLink within your Vstack with text of your choice for the destination label
-                
-                    NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label Content@*/Text("Navigate")/*@END_MENU_TOKEN@*/
+                    NavigationLink(destination: Third_view ()) {
+                        Text ("click for third view!")
+                    NavigationLink(destination: fourthView()) {
+                        Text ("click for fourth view!") }//
+                    NavigationLink(destination: fifthView()) {
+                        Text ("click  for fifth view!") }//
+                    
                     }
-
+                   
                 } //end of vstack
-                .navigationTitle("🏠")
+                .navigationTitle("🏠" )
                 .navigationBarTitleDisplayMode(.inline)
                 .navigationBarBackButtonHidden(true)
+                
+                
             }///end of navigation stack
             
         }

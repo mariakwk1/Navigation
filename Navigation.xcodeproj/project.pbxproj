@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		BDEC02472E44EA6300FDEF1C /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC02462E44EA6300FDEF1C /* SecondView.swift */; };
+		BDEC02492E44F17600FDEF1C /* Third view.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC02482E44F17600FDEF1C /* Third view.swift */; };
+		BDEC024B2E44F1DB00FDEF1C /* fourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC024A2E44F1DB00FDEF1C /* fourthView.swift */; };
+		BDEC024F2E44F2C900FDEF1C /* fifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC024E2E44F2C900FDEF1C /* fifthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BDEC02382E44E4BA00FDEF1C /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEC02462E44EA6300FDEF1C /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		BDEC02482E44F17600FDEF1C /* Third view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Third view.swift"; sourceTree = "<group>"; };
+		BDEC024A2E44F1DB00FDEF1C /* fourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthView.swift; sourceTree = "<group>"; };
+		BDEC024E2E44F2C900FDEF1C /* fifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +43,9 @@
 		BDEC022F2E44E4BA00FDEF1C = {
 			isa = PBXGroup;
 			children = (
+				BDEC024E2E44F2C900FDEF1C /* fifthView.swift */,
+				BDEC024A2E44F1DB00FDEF1C /* fourthView.swift */,
+				BDEC02482E44F17600FDEF1C /* Third view.swift */,
 				BDEC02462E44EA6300FDEF1C /* SecondView.swift */,
 				BDEC023A2E44E4BA00FDEF1C /* Navigation */,
 				BDEC02392E44E4BA00FDEF1C /* Products */,
@@ -126,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDEC02472E44EA6300FDEF1C /* SecondView.swift in Sources */,
+				BDEC02492E44F17600FDEF1C /* Third view.swift in Sources */,
+				BDEC024F2E44F2C900FDEF1C /* fifthView.swift in Sources */,
+				BDEC024B2E44F1DB00FDEF1C /* fourthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
