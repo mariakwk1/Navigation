@@ -9,15 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            Text("This is the room view 🌴")
+            NavigationLink(destination: Text ("You've arrived to the second view 🎉")) { //destination shows what will be on the new view
+                Text("Click me!") //label the content shows to the user the link
+            }
+        }///end of navigation stack
+        
+        
         }
-        .padding()
+        
     }
-}
+
 
 #Preview {
     ContentView()
